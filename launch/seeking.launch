@@ -1,0 +1,5 @@
+<launch> 
+  <include file="$(find mav_regulator)/launch/px4.launch"/>
+  <node name="extremum_seeking_node" pkg="extremum_seeking" type="extremum_seeking_node" output="screen">
+  </node>
+</launch>
